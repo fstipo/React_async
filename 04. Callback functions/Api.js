@@ -10,6 +10,6 @@ export const fetchData = (callback) => {
       callback('⛔ could not fetch the data', undefined);
     }
   });
-  request.open('GET', 'https://jsonplaceholder.typicode.com/todoss');
+  request.open('GET', 'https://jsonplaceholder.typicode.com/todos');
   request.send();
 };

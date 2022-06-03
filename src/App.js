@@ -2,9 +2,6 @@ import React from 'react';
 import { fetchData } from './component/Api';
 import './App.css';
 
-console.log(1);
-console.log(2);
-
 fetchData((err, data) => {
   console.log('Callback is fired');
   if (err) {
@@ -13,9 +10,6 @@ fetchData((err, data) => {
     console.log(data);
   }
 });
-
-console.log(3);
-console.log(4);
 
 function App() {
   return (

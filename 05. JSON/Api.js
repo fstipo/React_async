@@ -1,4 +1,4 @@
-export const fetchData = (callback) => {
+export const fetchData = (resource, callback) => {
   const request = new XMLHttpRequest();
   request.addEventListener('readystatechange', () => {
     //     console.log(request, request.readyState);

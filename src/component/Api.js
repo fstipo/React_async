@@ -10,3 +10,5 @@ const getTodos = async () => {
 getTodos()
   .then((data) => console.log('Resolved:', data))
   .catch((err) => console.log('Rejected:', err.message));
+
+  
